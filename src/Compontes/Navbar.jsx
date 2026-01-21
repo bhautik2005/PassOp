@@ -45,7 +45,7 @@ function Navbar() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-white blur-sm opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg"></div>
                   <img 
-                    src="src/assets/IconBrandGithub.svg" 
+                    src="public/IconBrandGithub.svg" 
                     alt="GitHub" 
                     className="relative h-6 w-6 invert transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12" 
                   />

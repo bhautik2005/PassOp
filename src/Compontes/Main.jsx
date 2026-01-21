@@ -55,10 +55,10 @@ function main() {
 
     if (ref.current.src.includes("hide.png")) {
       alert("The Password is Show");
-      ref.current.src = "src/assets/view.png";
+      ref.current.src = "public/view.png";
       pass.current.type = "text";
     } else {
-      ref.current.src = "src/assets/hide.png";
+      ref.current.src = "public/hide.png";
       pass.current.type = "password";
     }
   };
@@ -224,7 +224,7 @@ function main() {
                             onClick={passowrdShow}
                             className="absolute right-4 top-1/2 transform -translate-y-1/2 p-2 text-white/70 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300 hover:scale-110"
                           >
-                            <img src="src/assets/hide.png" alt="" className="h-5 w-5" ref={ref} />
+                            <img src="public/hide.png" alt="" className="h-5 w-5" ref={ref} />
                           </button>
                         </div>
                       </div>
@@ -323,7 +323,7 @@ function main() {
                                       onClick={() => copytext(item.email)}
                                       className="p-3 text-white/60 hover:text-cyan-400 hover:bg-cyan-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform"
                                     >
-                                      <img src="src/assets/copy.png" alt="" className="w-5 h-5" />
+                                      <img src="public/copy.png" alt="" className="w-5 h-5" />
                                     </button>
                                   </div>
                                 </td>
@@ -334,7 +334,7 @@ function main() {
                                       onClick={() => copytext(item.username)}
                                       className="p-3 text-white/60 hover:text-purple-400 hover:bg-purple-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform"
                                     >
-                                      <img src="src/assets/copy.png" alt="" className="w-5 h-5" />
+                                      <img src="public/copy.png" alt="" className="w-5 h-5" />
                                     </button>
                                   </div>
                                 </td>
@@ -345,7 +345,7 @@ function main() {
                                       onClick={() => copytext(item.password)}
                                       className="p-3 text-white/60 hover:text-pink-400 hover:bg-pink-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform"
                                     >
-                                      <img src="src/assets/copy.png" alt="" className="w-5 h-5" />
+                                      <img src="public/copy.png" alt="" className="w-5 h-5" />
                                     </button>
                                   </div>
                                 </td>
@@ -355,13 +355,13 @@ function main() {
                                       onClick={() => handaledit(item.id)}
                                       className="p-3 text-white/60 hover:text-blue-400 hover:bg-blue-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform hover:rotate-12"
                                     >
-                                      <img src="src/assets/edit-text.png" alt="" className="w-6 h-6" />
+                                      <img src="public/edit-text.png" alt="" className="w-6 h-6" />
                                     </button>
                                     <button
                                       onClick={() => handaldelete(item.id)}
                                       className="p-3 text-white/60 hover:text-red-400 hover:bg-red-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform hover:rotate-12"
                                     >
-                                      <img src="src/assets/delete.png" alt="" className="w-6 h-6" />
+                                      <img src="public/delete.png" alt="" className="w-6 h-6" />
                                     </button>
                                   </div>
                                 </td>
@@ -392,7 +392,7 @@ function main() {
                                   onClick={() => copytext(item.email)}
                                   className="p-2 text-white/60 hover:text-cyan-400 hover:bg-cyan-400/20 rounded-lg transition-all duration-300"
                                 >
-                                  <img src="src/assets/copy.png" alt="" className="w-4 h-4" />
+                                  <img src="public/copy.png" alt="" className="w-4 h-4" />
                                 </button>
                               </div>
 
@@ -404,7 +404,7 @@ function main() {
                                     onClick={() => copytext(item.username)}
                                     className="p-2 text-white/60 hover:text-purple-400 hover:bg-purple-400/20 rounded-lg transition-all duration-300"
                                   >
-                                    <img src="src/assets/copy.png" alt="" className="w-4 h-4" />
+                                    <img src="public/copy.png" alt="" className="w-4 h-4" />
                                   </button>
                                 </div>
                               </div>
@@ -417,7 +417,7 @@ function main() {
                                     onClick={() => copytext(item.password)}
                                     className="p-2 text-white/60 hover:text-pink-400 hover:bg-pink-400/20 rounded-lg transition-all duration-300"
                                   >
-                                    <img src="src/assets/copy.png" alt="" className="w-4 h-4" />
+                                    <img src="public/copy.png" alt="" className="w-4 h-4" />
                                   </button>
                                 </div>
                               </div>
@@ -427,13 +427,13 @@ function main() {
                                   onClick={() => handaledit(item.id)}
                                   className="p-3 text-white/60 hover:text-blue-400 hover:bg-blue-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform"
                                 >
-                                  <img src="src/assets/edit-text.png" alt="" className="w-5 h-5" />
+                                  <img src="public/edit-text.png" alt="" className="w-5 h-5" />
                                 </button>
                                 <button
                                   onClick={() => handaldelete(item.id)}
                                   className="p-3 text-white/60 hover:text-red-400 hover:bg-red-400/20 rounded-xl transition-all duration-300 hover:scale-110 transform"
                                 >
-                                  <img src="src/assets/delete.png" alt="" className="w-5 h-5" />
+                                  <img src="public/delete.png" alt="" className="w-5 h-5" />
                                 </button>
                               </div>
                             </div>
